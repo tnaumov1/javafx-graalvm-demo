@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: javafx-demo-${{ matrix.os }}
-          path: javafx-demo*
+          path: target/javafx-demo*
